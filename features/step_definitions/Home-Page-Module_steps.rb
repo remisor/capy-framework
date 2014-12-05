@@ -86,6 +86,9 @@ end
 
 Then(/^I should see Upcoming Events$/) do
   expect(page).to have_content 'Upcoming Events'
+  upcoming = page.find_by_id('current_location_pc').text
+   puts "The current location is:"
+   puts upcoming
 end
 
 Then(/^I should see (\d+) events displayed$/) do |arg1|
