@@ -1,0 +1,8 @@
+@monitor
+Feature: Fanx site test
+
+@javascript @fanx
+Scenario: Any events on Nov 25?
+	Given I navigate to Fanxchange
+	Then the text Nov 25 should be present
+
