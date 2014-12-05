@@ -1,0 +1,1 @@
+homepage: headless=true xvfb-run cucumber -t @homepage -f html -o /home/fanxchnge/capy-wat-framework/fanxchange/reports/<%= Time.now.strftime("%Y%m%d-%H%M%S") %>-HomePage-report.html
