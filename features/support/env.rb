@@ -17,7 +17,7 @@ Capybara.default_wait_time = 30
 # Capybara Screenshot Module *
 
 Capybara::Screenshot.prune_strategy = :keep_last_run
-Capybara.save_and_open_page_path = "/home/voicemailtel/Cuke/screenshots"
+Capybara.save_and_open_page_path = "/home/fanxchnge/capy-wat-framework/fanxchange/reports/screens"
 # Capybara Ignore SSL errors module *
 Capybara.register_driver :webkit do |app|
 browser = Capybara::Webkit::Browser.new(Capybara::Webkit::Connection.new).tap do |browser|
